@@ -6,6 +6,8 @@ A [Paw Extension](http://luckymarmot.com/paw/extensions/) that converts Base 64 
 
 For example, your Base 64 input is: `AAECAwQ=` (which is the Base 64 encoding of the byte string `\0\1\2\3\4`), the result will be `hex("\0\1\2\3\4")` which is `0001020304`.
 
+If you're looking for the opposite behavior (hexadecimal to base 64), you should probably use the [Hex to Base 64 Dynamic Value](https://github.com/luckymarmot/Paw-HexToBase64DynamicValue).
+
 ## Installation
 
 Easily install this Paw Extension: [Install Base 64 to Hex Dynamic Value](http://luckymarmot.com/paw/extensions/Base64ToHexDynamicValue)
