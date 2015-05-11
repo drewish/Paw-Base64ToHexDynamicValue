@@ -10,10 +10,10 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: HKzdmfWrrncjT0jXfgsboHC9dT5d1kYccJoS7LmxToHMSMKESL92uS1UZ3ucWvkMnz9GSV/688oKIakOE8hfoOKYkjQYesoeJvgsgLfw+rALjnHvDK3Ysoy2NF68o/ya21Km3qZaInnFAorRU5r3Czp/WB/gqyH8P8yZslXk17o=
-  file: build/EmailRandomizerDynamicValue.zip
+    secure: a4INyi4MYW6vNK8fDA/4VgrHIYRVBCzc8ktSornLYupkbxG/WIa8bIp6tRDrWJj5kkiJI9Iw9K5ArLghbSftOGD1xVr4Vco/ZXJdoYyeui/r/8midywa7yXBDx4IuPCUyjP3bgUT9AgXQqJCiL64ScPWeG9clIhlxvZPvkcv9kg2vAn9JXgA+yLU7Zvm+D9xSsuri3sagWjB4I1wHCJ2z5FflAeFPD+pEbwlHz5luldGa8fjLQ4Xhljp2tSE9mi8LhcFPnGIK75eKoCi/UnY0k1PDd7vyTe1563inTqpcYuCVFbcajwUcCDSTS1BmswTscpPtebH+e5+UdqbiEQRuByiv4zeTSnzemsKLL3rPs96U0/OLv2Tlv5k69H3qhc+KsVa8IKBDs7AtKwZ98llKHTp61AU1JnymSoc9jlke6q/J5Kb2rHbEp65gNOE2xo89DmCHmGlKJtMFa5oqmLTtJ146JDKY5YTA1cRLoUaOARW0wXafCilzNPfOp+qFg3cEV3mFFLDFP25y1ATQXVaxdu6KzGNShqI8bZAgk7OetvHexExGpiG9r3FAKxATdHi/d1f9uAwm+95nswb33mUOckD3OFV0+IpSkx6K71jJ1KurUa2AUYyjDsJt1tEABwpHM2HnqFD6MvnoslPkesOBioOfFBRbiElnZTfB4vglbw=
+  file: build/Base64ToHexDynamicValue.zip
   skip_cleanup: true
   on:
     tags: true
     all_branches: true
-    repo: luckymarmot/Paw-EmailRandomizerDynamicValue
+    repo: luckymarmot/Paw-Base64ToHexDynamicValue
